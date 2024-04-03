@@ -3,7 +3,7 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: true.
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
@@ -11,6 +11,13 @@ credits: true
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+
+# Title
+this is some text that will be a paragraph
+
+1. one
+1. *two*
+1. **three**
 
 ## About the Collection
 
